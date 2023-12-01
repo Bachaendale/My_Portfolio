@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 3;
+    background-color: rgb(243, 240, 240);
+}
+
+p {
+    color: navy;
+}
+
+
+.navbarr {
+
+    background-color: rgb(9, 9, 97);
+    text-align: center;
+    padding: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.nav-listt {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+.nav-linkk {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-linkk:hover {
+    color: rgb(9, 9, 74);
+    background-color: #ffffff;
+    transform: scale(1.1);
+    border-radius: 30px;
+    margin: 20px;
+}
+
+/*--------------------------------------------------------------*/
+.hic {
+    text-align: center;
+    font-size: xx-large;
+    color: navy;
+    border-radius: 30px;
+    margin: 100px;
+    padding: 0;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 9px 9px 9px rgba(0, 0, 128, 0.604);
+
+    transition: transform 0.3s ease-in-out;
+
+}
+
+
+
+.hic :hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hic2 {
+    text-align: center;
+    color: navy;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 9px 9px 9px rgba(0, 0, 128, 0.604);
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+.card {
+
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 128, 0.703);
+
+}
+
+.card:hover {
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 128, 0.703);
+
+
+    /* Scale the card on hover */
+}
+
+.card img {
+    width: fit-content;
+}
+
+
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 12, 79);
+    padding: 2px;
+    text-align: center;
+
+}
+
+#carouselExampleCaptions p {
+    color: white;
+
+
+}
+
+.carousel-item {}
+
+
+.speech-1 p {
+    margin: 30px;
+}
+
+.projects {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px rgba(9, 9, 97, 0.10);
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+
+
+    margin: 50px;
+
+}
+
+.projects:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Shadow on hover */
+    border-color: navy;
+    /* Navy blue border on hover */
+}
+
+.map {
+    padding: 20px;
+    border: 2px solid transparent;
+    /* Initially transparent border */
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    /* Adding transition effect */
+}
+
+.map:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Shadow on hover */
+    border-color: navy;
+    /* Navy blue border on hover */
+}
+
+
+.edit-div {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.4);
+    /* Navy blue glowing border */
+    transition: box-shadow 0.3s;
+    /* Adding transition effect */
+    margin: 20px;
+    /* Adding margins around the container */
+}
+
+.edit-div:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
+    /* Increased glow on hover */
+}
+
+.certifications {
+    color: navy;
+    /* Setting text color */
+    font-size: larger;
+    /* Setting font size */
+}
